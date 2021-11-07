@@ -1,15 +1,8 @@
-# Basic Sample Hardhat Project
+## seth: STD Set in Solidity
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This repository is for educational purpose, please do not use in production.
 
-Try running some of the following tasks:
+### Methods
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+-   **insert**: Insert new string to the set.
+-   **is_contains**: To check whether the string is existing or not.
