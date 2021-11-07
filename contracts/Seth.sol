@@ -7,7 +7,7 @@ contract Seth {
         mapping(string => bool) is_contains;
     }
 
-    Set set;
+    Set private set;
     address private contract_owner;
 
     constructor() {
