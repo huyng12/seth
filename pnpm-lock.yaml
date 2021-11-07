@@ -4,6 +4,7 @@ specifiers:
   '@nomiclabs/hardhat-ethers': ^2.0.0
   '@nomiclabs/hardhat-waffle': ^2.0.0
   chai: ^4.2.0
+  chai-as-promised: ^7.1.1
   ethereum-waffle: ^3.0.0
   ethers: ^5.0.0
   hardhat: ^2.6.8
@@ -12,6 +13,7 @@ devDependencies:
   '@nomiclabs/hardhat-ethers': 2.0.2_ethers@5.5.1+hardhat@2.6.8
   '@nomiclabs/hardhat-waffle': 2.0.1_5dc35a07d139ac43dfb51e22a8b7b927
   chai: 4.3.4
+  chai-as-promised: 7.1.1_chai@4.3.4
   ethereum-waffle: 3.4.0
   ethers: 5.5.1
   hardhat: 2.6.8
@@ -1840,6 +1842,15 @@ packages:
 
   /caseless/0.12.0:
     resolution: {integrity: sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=}
+    dev: true
+
+  /chai-as-promised/7.1.1_chai@4.3.4:
+    resolution: {integrity: sha512-azL6xMoi+uxu6z4rhWQ1jbdUhOMhis2PvscD/xjLqNMkv3BPPp2JyyuTHOrf9BOosGpNQ11v6BKv/g57RXbiaA==}
+    peerDependencies:
+      chai: '>= 2.1.2 < 5'
+    dependencies:
+      chai: 4.3.4
+      check-error: 1.0.2
     dev: true
 
   /chai/4.3.4:
