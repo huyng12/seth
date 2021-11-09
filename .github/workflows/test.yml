@@ -15,3 +15,6 @@ jobs:
                   version: 6.20.2
             - run: pnpm i --frozen-lockfile
             - run: pnpm test
+              env:
+                  ALCHEMY_API_KEY: ${{ secrets.ALCHEMY_API_KEY }}
+                  ROPSTEN_PRIVATE_KEY: ${{ secrets.ROPSTEN_PRIVATE_KEY }}

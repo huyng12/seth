@@ -10,7 +10,9 @@
         "test": "hardhat test",
         "compile": "hardhat compile",
         "lint": "prettier --check .",
-        "lint-fix": "prettier --write ."
+        "lint-fix": "prettier --write .",
+        "generate-key": "hardhat run scripts/generate-key.js",
+        "deploy": "hardhat run scripts/deploy.js"
     },
     "keywords": [],
     "author": "",
@@ -20,6 +22,7 @@
         "@nomiclabs/hardhat-waffle": "^2.0.0",
         "chai": "^4.2.0",
         "chai-as-promised": "^7.1.1",
+        "elliptic": "^6.5.4",
         "ethereum-waffle": "^3.0.0",
         "ethers": "^5.0.0",
         "hardhat": "^2.6.8",
